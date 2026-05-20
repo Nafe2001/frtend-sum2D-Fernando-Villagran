@@ -1,0 +1,214 @@
+:root {
+  --dark-blue: #081b33;
+  --medium-blue: #1167b1;
+  --soft-blue: #1d4e89;
+  --light-gray: #f2f5f9;
+  --muted-gray: #7a8793;
+  --white: #ffffff;
+  --surface: #eef4fb;
+  --shadow: rgba(4, 17, 41, 0.08);
+  --success: #1c7c54;
+  --danger: #c0392b;
+}
+
+body {
+  background: #f7fbff;
+}
+
+.form-page {
+  padding: 3rem 0 4rem;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2rem, 2.5vw, 2.5rem);
+  margin: 0.5rem 0 0.75rem;
+}
+
+.form-header p {
+  color: var(--muted-gray);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.form-card {
+  background: var(--white);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 24px 50px rgba(4, 17, 41, 0.08);
+  border: 1px solid rgba(17, 99, 184, 0.08);
+}
+
+.form-section {
+  border: 1px solid rgba(17, 99, 184, 0.12);
+  border-radius: 18px;
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+  background: #f6faff;
+}
+
+.form-section legend {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0 0.5rem;
+}
+
+.form-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  font-weight: 500;
+  color: var(--dark-blue);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  border: 1px solid #d7e0eb;
+  border-radius: 14px;
+  padding: 0.95rem 1rem;
+  font-family: inherit;
+  font-size: 0.98rem;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--medium-blue);
+  box-shadow: 0 0 0 4px rgba(17, 99, 184, 0.12);
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.field-group.radios,
+.field-group.checkboxes {
+  gap: 0.75rem;
+}
+
+.field-group label,
+.checkbox-field {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 500;
+}
+
+.checkbox-field input {
+  width: 1rem;
+  height: 1rem;
+}
+
+.field-label {
+  font-weight: 700;
+}
+
+.required {
+  color: var(--danger);
+}
+
+.hidden {
+  display: none;
+}
+
+.field-note,
+.warning-note {
+  color: var(--muted-gray);
+  font-size: 0.92rem;
+}
+
+.warning-note {
+  margin: 0;
+}
+
+.char-counter {
+  font-size: 0.9rem;
+  color: var(--muted-gray);
+  text-align: right;
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.button-link,
+.button-outline,
+.button-primary {
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 0.9rem 1.4rem;
+  font-weight: 700;
+}
+
+.button-primary {
+  background: var(--medium-blue);
+  color: var(--white);
+  border: none;
+}
+
+.button-outline {
+  border: 1px solid var(--medium-blue);
+  color: var(--medium-blue);
+  background: transparent;
+}
+
+.button-link {
+  color: var(--dark-blue);
+  background: transparent;
+  border: 1px solid rgba(16, 42, 67, 0.1);
+}
+
+.campo-error {
+  border-color: var(--danger) !important;
+}
+
+.campo-ok {
+  border-color: var(--success) !important;
+}
+
+@media (max-width: 900px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .form-card {
+    padding: 1.5rem;
+  }
+
+  .form-actions {
+    flex-direction: column;
+  }
+}
