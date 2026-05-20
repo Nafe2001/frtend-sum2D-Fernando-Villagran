@@ -54,11 +54,11 @@
               <label for="telefono">Teléfono de contacto <span class="required">*</span>
                 <input type="tel" id="telefono" name="telefono" required>
               </label>
-              <div class="field-group radios">
-                <span class="field-label">Tipo de cliente <span class="required">*</span></span>
-                <label><input type="radio" name="tipo-cliente" value="Particular" checked> Particular</label>
-                <label><input type="radio" name="tipo-cliente" value="Empresa"> Empresa</label>
-              </div>
+              <fieldset class="field-group radios">
+                <legend>Tipo de cliente <span class="required">*</span></legend>
+                <label for="tipo-cliente-particular"><input type="radio" id="tipo-cliente-particular" name="tipo-cliente" value="Particular" checked> Particular</label>
+                <label for="tipo-cliente-empresa"><input type="radio" id="tipo-cliente-empresa" name="tipo-cliente" value="Empresa"> Empresa</label>
+              </fieldset>
               <div id="empresa-fields" class="conditional-field hidden">
                 <label for="empresa">Nombre de la empresa
                   <input type="text" id="empresa" name="empresa">
@@ -200,11 +200,11 @@
                   <option>Hace meses</option>
                 </select>
               </label>
-              <div class="field-group radios">
-                <span class="field-label">El problema es <span class="required">*</span></span>
-                <label><input type="radio" name="problema-tipo" value="Permanente" checked> Permanente</label>
-                <label><input type="radio" name="problema-tipo" value="Intermitente"> Intermitente</label>
-              </div>
+              <fieldset class="field-group radios">
+                <legend>El problema es <span class="required">*</span></legend>
+                <label for="problema-permanente"><input type="radio" id="problema-permanente" name="problema-tipo" value="Permanente" checked> Permanente</label>
+                <label for="problema-intermitente"><input type="radio" id="problema-intermitente" name="problema-tipo" value="Intermitente"> Intermitente</label>
+              </fieldset>
               <label for="descripcion-problema">Descripción detallada del problema <span class="required">*</span>
                 <textarea id="descripcion-problema" name="descripcion-problema" minlength="20" maxlength="500" required></textarea>
                 <span class="char-counter"><span id="contador-problema">0</span>/500</span>
@@ -225,11 +225,11 @@
           <fieldset class="form-section">
             <legend>Sección D — Preferencias de Entrega y Confirmación</legend>
             <div class="form-grid">
-              <div class="field-group radios">
-                <span class="field-label">Modalidad de entrega <span class="required">*</span></span>
-                <label><input type="radio" name="entrega" value="Local" checked> Lo llevo personalmente al local</label>
-                <label><input type="radio" name="entrega" value="Domicilio"> Solicito retiro a domicilio</label>
-              </div>
+              <fieldset class="field-group radios">
+                <legend>Modalidad de entrega <span class="required">*</span></legend>
+                <label for="entrega-local"><input type="radio" id="entrega-local" name="entrega" value="Local" checked> Lo llevo personalmente al local</label>
+                <label for="entrega-domicilio"><input type="radio" id="entrega-domicilio" name="entrega" value="Domicilio"> Solicito retiro a domicilio</label>
+              </fieldset>
               <div id="direccion-domicilio-field" class="conditional-field hidden">
                 <label for="direccion-domicilio">Dirección completa para retiro
                   <input type="text" id="direccion-domicilio" name="direccion-domicilio">
@@ -245,12 +245,12 @@
                   <option>Necesito consultar antes de aprobar cualquier gasto</option>
                 </select>
               </label>
-              <div class="field-group checkboxes">
-                <span class="field-label">Preferencia de contacto <span class="required">*</span></span>
-                <label><input type="checkbox" name="contacto" value="WhatsApp"> WhatsApp</label>
-                <label><input type="checkbox" name="contacto" value="Correo electronico"> Correo electrónico</label>
-                <label><input type="checkbox" name="contacto" value="Llamada telefonica"> Llamada telefónica</label>
-              </div>
+              <fieldset class="field-group checkboxes">
+                <legend>Preferencia de contacto <span class="required">*</span></legend>
+                <label for="contacto-whatsapp"><input type="checkbox" id="contacto-whatsapp" name="contacto" value="WhatsApp"> WhatsApp</label>
+                <label for="contacto-email"><input type="checkbox" id="contacto-email" name="contacto" value="Correo electronico"> Correo electrónico</label>
+                <label for="contacto-llamada"><input type="checkbox" id="contacto-llamada" name="contacto" value="Llamada telefonica"> Llamada telefónica</label>
+              </fieldset>
               <label for="horario">Horario preferido para ser contactado <span class="required">*</span>
                 <select id="horario" name="horario" required>
                   <option value="">Selecciona un horario</option>

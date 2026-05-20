@@ -3,31 +3,64 @@
 ------------------------------------------------------------
 PROMPT ENVIADO A COPILOT: necesito que me ayudes a sincronizar mi cuenta de github para asi conectar al repositorio
 ------------------------------------------------------------
-RESPUESTA RECIBIDA (resumen breve): Copilot explicó cómo iniciar sesión en GitHub desde VS Code, cómo conectar la carpeta local al repositorio remoto y qué comandos ejecutar para hacer commit y push.
+RESPUESTA RECIBIDA (resumen breve): Copilot explicó el proceso de login a GitHub en VS Code y cómo usar git init, remote add, commit y push.
 ----------------------------------------------------------
--- USO EN EL PROYECTO: 
+-- USO EN EL PROYECTO: Aqui le solicite si me podia ayudar a vincular el proyecto con github y si utilice la respuesta tal cual me lo entrego el asistente de ia 
 ------------------------------------------------------
------- REFLEXION PERSONAL: 
+------ REFLEXION PERSONAL: Mi reflexion es que aqui solicite ayuda para poder lograr vincular como se debe el visual studio con el copilot y se logro de una manera eficiente y correcta y obtuve lo que buscaba 
 ============================================================
 ============================================================ CONSULTA
 #2 Etapa del proyecto: Etapa 1 Fecha: 20/05/2026
 ------------------------------------------------------------
 PROMPT ENVIADO A COPILOT: claro ahora necesito el commit te recuerdo que deben ser 2 commit minimo por etapa aqui
 ------------------------------------------------------------
-RESPUESTA RECIBIDA (resumen breve): Copilot verificó los cambios pendientes, creó dos commits con el formato de etapa1 y subió los cambios al repositorio remoto.
+RESPUESTA RECIBIDA (resumen breve): Copilot indicó cómo crear dos commits con prefijo etapa1 y subir los cambios al remoto.
 ----------------------------------------------------------
--- USO EN EL PROYECTO: 
+-- USO EN EL PROYECTO: Aqui le solicite ayuda para poder hacer los commit de una menera correcta y que estuvieran subido como se debe en la pagina de github y ocupe la respuesta que me entrego el asistente
 ------------------------------------------------------
 ------ REFLEXION PERSONAL: 
 ============================================================
 ============================================================ CONSULTA
-#3 Etapa del proyecto: Etapa 2 Fecha: 20/05/2026
+#3 Etapa del proyecto: Etapa 1 Fecha: 20/05/2026
 ------------------------------------------------------------
-PROMPT ENVIADO A COPILOT: excelente ahora hace el prompts con la info que hicimos recien te recuerdo que el prompts es el registro de todos los cambios que estamos haciendo
+PROMPT ENVIADO A COPILOT: entonces coloca eso en el #2 Etapa del proyecto: Etapa 1 Fecha: 20/05/2026
 ------------------------------------------------------------
-RESPUESTA RECIBIDA (resumen breve): Copilot generó ingreso.html e ingreso.css para etapa 2, creando un formulario semántico dividido en cuatro secciones, con campos condicionales, contador de texto y estilos responsivos.
+RESPUESTA RECIBIDA (resumen breve): Copilot confirmó que la solicitud era crear la página principal y la estructura de archivos mínimos.
 ----------------------------------------------------------
--- USO EN EL PROYECTO: 
+-- USO EN EL PROYECTO: Aqui ocupe la respuesta tal cual me entregro el asistente de ia por que era la base del codigo y ocupe tal cual fue entrega 
 ------------------------------------------------------
------- REFLEXION PERSONAL: 
+------ REFLEXION PERSONAL: Aqui puedo decir que la respuesta fue tal cual dado a que era la base del codigo y deje que el asistente de ia hiciera la base
+============================================================
+============================================================ CONSULTA
+#4 Etapa del proyecto: Etapa 2 Fecha: 20/05/2026
+------------------------------------------------------------
+PROMPT ENVIADO A COPILOT: Etapa 2 — Formulario de Ingreso de Equipo: necesitas crear ingreso.html e ingreso.css con cuatro secciones semánticas, campos condicionales y diseño responsivo.
+------------------------------------------------------------
+RESPUESTA RECIBIDA (resumen breve): Copilot generó ingreso.html e ingreso.css con el formulario completo, incluyendo condicionales y estructura responsive.
+----------------------------------------------------------
+-- USO EN EL PROYECTO: Aqui fue un poquito mas de lo mismo solicite la base del codigo con el diseño y el asistente de ia se encargo de generarlo tanto el html como el styles si hice unas pequeña modificaciones 
+------------------------------------------------------
+------ REFLEXION PERSONAL: aqui puedo decir que si hice un poco de modificaciones por que el agente entrego una respuesta muy avanca para algo que no tengo conocimiento asi que le pedi que hiciera algo mas basico 
+============================================================
+============================================================ CONSULTA
+#5 Etapa del proyecto: Etapa 3 Fecha: 20/05/2026
+------------------------------------------------------------
+PROMPT ENVIADO A COPILOT: Etapa 3 — Validacion del Formulario con JavaScript: crea validaciones.js y asegura que el formulario valide campos visibles, muestre errores y confirme ingreso.
+------------------------------------------------------------
+RESPUESTA RECIBIDA (resumen breve): Copilot añadió validaciones en JavaScript nativo, manejo de eventos y una pantalla de confirmación con orden aleatoria.
+----------------------------------------------------------
+-- USO EN EL PROYECTO: aqui le pedi que me genera el codigo de JavaScript y le pedi que me explicara como funcionaba mas que nada la validaciones de campo y como lo hacia, para lograr una compresion mejor del codigo 
+------------------------------------------------------
+------ REFLEXION PERSONAL:aqui obtuve lo que estaba buscando y deje tal cual fue la respuesta solo cambiaria  
+============================================================
+============================================================ CONSULTA
+#6 Etapa del proyecto: Etapa 3 Fecha: 20/05/2026
+------------------------------------------------------------
+PROMPT ENVIADO A COPILOT: me puedes dar una lista de cuantos commit llevamos?
+------------------------------------------------------------
+RESPUESTA RECIBIDA (resumen breve): Copilot listó los commits actuales del repositorio y confirmó que había al menos ocho commits con prefijos correctos.
+----------------------------------------------------------
+-- USO EN EL PROYECTO: aqui le solicite los commits que llevamos dado a la situacion y llevamos 8 eso es bueno pero si tambien me entregro una respuesta esperada 
+------------------------------------------------------
+------ REFLEXION PERSONAL: si obtuve lo que esperaba del asistente de ia y logre saber cuanto commits llevaba 
 ============================================================
