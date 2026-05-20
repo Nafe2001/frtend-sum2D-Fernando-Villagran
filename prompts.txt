@@ -1,0 +1,11 @@
+﻿============================================================ CONSULTA
+#1 Etapa del proyecto: Etapa 1 Fecha: 20/05/2026
+------------------------------------------------------------
+PROMPT ENVIADO A COPILOT: necesito que me ayudes a sincronizar mi cuenta de github para asi conectar al repositorio
+------------------------------------------------------------
+RESPUESTA RECIBIDA (resumen breve): Copilot explicó cómo iniciar sesión en GitHub desde VS Code, cómo conectar la carpeta local al repositorio remoto y qué comandos ejecutar para hacer commit y push.
+----------------------------------------------------------
+-- USO EN EL PROYECTO: Usé la respuesta para verificar que Git estaba instalado, agregar los archivos nuevos, hacer el commit con el formato de mensaje solicitado y subir los cambios al repositorio remoto. Ajusté el mensaje final para cumplir con el esquema de commits.
+------------------------------------------------------
+------ REFLEXION PERSONAL: El prompt fue útil porque me permitió avanzar rápidamente con el control de versiones. La próxima vez seré más específico al pedir el formato de commit y documentaré cada interacción directamente en el archivo prompts.txt.
+============================================================
