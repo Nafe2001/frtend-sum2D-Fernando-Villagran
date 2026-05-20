@@ -9,3 +9,25 @@ RESPUESTA RECIBIDA (resumen breve): Copilot explicó cómo iniciar sesión en Gi
 ------------------------------------------------------
 ------ REFLEXION PERSONAL: 
 ============================================================
+============================================================ CONSULTA
+#2 Etapa del proyecto: Etapa 1 Fecha: 20/05/2026
+------------------------------------------------------------
+PROMPT ENVIADO A COPILOT: claro ahora necesito el commit te recuerdo que deben ser 2 commit minimo por etapa aqui
+------------------------------------------------------------
+RESPUESTA RECIBIDA (resumen breve): Copilot verificó los cambios pendientes, creó dos commits con el formato de etapa1 y subió los cambios al repositorio remoto.
+----------------------------------------------------------
+-- USO EN EL PROYECTO: 
+------------------------------------------------------
+------ REFLEXION PERSONAL: 
+============================================================
+============================================================ CONSULTA
+#3 Etapa del proyecto: Etapa 2 Fecha: 20/05/2026
+------------------------------------------------------------
+PROMPT ENVIADO A COPILOT: excelente ahora hace el prompts con la info que hicimos recien te recuerdo que el prompts es el registro de todos los cambios que estamos haciendo
+------------------------------------------------------------
+RESPUESTA RECIBIDA (resumen breve): Copilot generó ingreso.html e ingreso.css para etapa 2, creando un formulario semántico dividido en cuatro secciones, con campos condicionales, contador de texto y estilos responsivos.
+----------------------------------------------------------
+-- USO EN EL PROYECTO: 
+------------------------------------------------------
+------ REFLEXION PERSONAL: 
+============================================================
